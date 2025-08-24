@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asmaa Abdelwahab - Frontend Developer</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        xintegrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Google Fonts: Inter and Cairo for good readability and Arabic support -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Cairo:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="bg-dark" data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="56">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent shadow-sm ">
+        <div class="container">
+            <a class="navbar-brand text-danger fw-bold fs-4" href="#hero">Asm@@</a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero"
+        class="d-flex align-items-center justify-content-center text-center text-white py-5 vh-100 bg-primary-gradient">
+        <div class="container py-5">
+            <div class="mb-4 image-parent mt-5 pt-5">
+                <img src="./images/img2.jpg" alt="Asmaa Abdelwahab"
+                    class=" rounded-circle border border-white border-4 shadow-lg image">
+            </div>
+            <h1 class="display-3 fw-bold mb-2">Hello, I'm Asmaa Abdelwahab</h1>
+            <p class="lead mb-4 fw-semibold">Frontend Developer & passionate about AI</p>
+            <p class="mx-auto mb-5 opacity-90 max-w-lg w-75">
+                A dedicated Computer Science student specializing in building user-friendly and visually appealing web
+                applications using modern web technologies. Always striving for innovative and refined solutions.
+            </p>
+            <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 pb-5 mb-5">
+                <a href="#projects" class="btn btn-light btn-lg rounded-pill shadow-sm animate-btn">
+                    <i class="fas fa-project-diagram me-2"></i> View My Projects
+                </a>
+                <!-- Dummy link for resume download - replace with actual resume URL -->
+                <a href="https://placehold.co/100x100?text=Resume" download="Asmaa_Abdelwahab_Resume.pdf"
+                    class="btn btn-outline-light btn-lg rounded-pill shadow-sm animate-btn">
+                    <i class="fas fa-download me-2 "></i> Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-5 py-md-5">
+        <div class="container text-center">
+            <h2 class="display-4 fw-bold text-danger mb-4">About Me</h2>
+            <p class="lead text-white mx-auto mb-4 max-w-3xl">
+                Asmaa Abdelwahab is a dedicated Computer Science student at Banha University, majoring in Computers and
+                Artificial Intelligence, with a GPA of 3.5. She is passionate about front-end development and actively
+                building extensive experience in modern web technologies.
+            </p>
+            <p class="lead text-white mx-auto mb-5 max-w-3xl">
+                Through hands-on projects and intensive training, Asmaa has developed a keen eye for design and a
+                commitment to creating user-friendly and visually appealing web applications. She is a quick learner and
+                a devoted team member, always eager to grow her skills and contribute to impactful projects.
+            </p>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100 animate-card">
+                        <div class="card-body">
+                            <i class="fas fa-graduation-cap fa-3x text-info mb-3"></i>
+                            <h3 class="card-title h5 fw-bold mb-3">Education</h3>
+                            <p class="card-text text-secondary">Bachelor of Computer Science, Banha University (2026)
+                            </p>
+                            <p class="card-text text-muted small">Major: Computers and Artificial Intelligence
+                                (Scientific Computing)</p>
+                            <p class="card-text text-muted small">GPA: 3.5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100 animate-card">
+                        <div class="card-body">
+                            <i class="fas fa-award fa-3x text-warning mb-3"></i>
+                            <h3 class="card-title h5 fw-bold mb-3">Certifications & Experience</h3>
+                            <p class="card-text text-secondary">Frontend Web Development Internship, ITI (95%)</p>
+                            <p class="card-text text-secondary">Full Stack Development Course, SEF Academy (Ongoing)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100 animate-card">
+                        <div class="card-body">
+                            <i class="fas fa-lightbulb fa-3x text-success mb-3"></i>
+                            <h3 class="card-title h5 fw-bold mb-3">Activities</h3>
+                            <p class="card-text text-secondary">Technical Member (AI), IEEE Banha University</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 py-md-5">
+        <div class="container text-center">
+            <h2 class="display-4 fw-bold text-danger mb-5">My Skills</h2>
+
+            <!-- Technical Skills -->
+            <h3 class="h4 fw-bold text-secondary mb-4"><i class="fas fa-code me-2"></i> Technical Skills</h3>
+            <div class="d-flex flex-wrap justify-content-center gap-3 mb-5">
+                <span class="badge bg-primary text-white p-3 rounded-pill shadow-sm animate-skill">HTML5</span>
+                <span class="badge bg-primary text-white p-3 rounded-pill shadow-sm animate-skill">CSS3</span>
+                <span class="badge bg-primary text-white p-3 rounded-pill shadow-sm animate-skill">JavaScript</span>
+                <span class="badge bg-primary text-white p-3 rounded-pill shadow-sm animate-skill">Bootstrap</span>
+                <span class="badge bg-primary text-white p-3 rounded-pill shadow-sm animate-skill">Tailwind CSS</span>
+                <span class="badge bg-primary text-white p-3 rounded-pill shadow-sm animate-skill">C++</span>
+                <span class="badge bg-primary text-white p-3 rounded-pill shadow-sm animate-skill">Python</span>
+                <span class="badge bg-primary text-white p-3 rounded-pill shadow-sm animate-skill">Docker</span>
+                <span class="badge bg-primary text-white p-3 rounded-pill shadow-sm animate-skill">GitHub</span>
+            </div>
+
+            <!-- Soft Skills -->
+            <h3 class="h4 fw-bold text-secondary mb-4"><i class="fas fa-user-friends me-2"></i> Soft Skills</h3>
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+                <span class="badge bg-info text-white p-3 rounded-pill shadow-sm animate-skill">Communication</span>
+                <span class="badge bg-info text-white p-3 rounded-pill shadow-sm animate-skill">Adaptability</span>
+                <span class="badge bg-info text-white p-3 rounded-pill shadow-sm animate-skill">Teamwork</span>
+                <span class="badge bg-info text-white p-3 rounded-pill shadow-sm animate-skill">Time Management</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 py-md-5">
+        <div class="container text-center">
+            <h2 class="display-4 fw-bold text-danger mb-5">My Projects</h2>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Project Card 1: CRUD App -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-lg border-0 animate-project-card">
+                        <img src="./images/Capture.PNG" class="card-img-top"
+                            alt="CRUD Product Management App">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5 fw-bold text-danger mb-3">Product Management (CRUD) App</h3>
+                            <p class="card-text text-secondary mb-4">
+                                A responsive web application for managing products, allowing creation, reading,
+                                updating, and deletion with real-time validation. Uses Local Storage for data
+                                persistence.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2 mb-3 mt-auto">
+                                <span class="badge bg-secondary text-dark-blue p-2 rounded-pill">HTML5</span>
+                                <span class="badge bg-secondary text-dark-blue p-2 rounded-pill">CSS3</span>
+                                <span class="badge bg-secondary text-dark-blue p-2 rounded-pill">JavaScript</span>
+                                <span class="badge bg-secondary text-dark-blue p-2 rounded-pill">Local
+                                    Storage</span>
+                            </div>
+                            <div class="d-flex justify-content-start gap-3 mt-3">
+                                <a href="https://github.com/EnAsmaa/Crud-system.git" class="btn btn-danger btn-sm rounded-pill animate-btn">Live Demo</a>
+                                <a href="https://enasmaa.github.io/Crud-system/"
+                                    class="btn btn-outline-danger btn-sm rounded-pill animate-btn">GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2: OGO-Foods -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-lg border-0 animate-project-card">
+                        <img src="./images/Capture3.PNG" class="card-img-top"
+                            alt="OGO-Foods Food Ordering Website">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5 fw-bold text-danger mb-3">OGO-Foods Ordering Website</h3>
+                            <p class="card-text text-secondary mb-4">
+                                A responsive food ordering website with dynamic content rendered using real-time API
+                                data fetching. Features search, filters, and cart management.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2 mb-3 mt-auto">
+                                <span class="badge bg-secondary text-dark-blue p-2 rounded-pill">HTML5</span>
+                                <span class="badge bg-secondary text-dark-blue p-2 rounded-pill">CSS3</span>
+                                <span class="badge bg-secondary text-dark-blue p-2 rounded-pill">JavaScript</span>
+                                <span class="badge bg-secondary text-dark-blue p-2 rounded-pill">Fetch API</span>
+                            </div>
+                            <div class="d-flex justify-content-start gap-3 mt-3">
+                                <a href="https://github.com/EnAsmaa/Recipes-Api.git" class="btn btn-danger btn-sm rounded-pill animate-btn">Live Demo</a>
+                                <a href=" https://enasmaa.github.io/Recipes-Api/"
+                                    class="btn btn-outline-danger btn-sm rounded-pill animate-btn">GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3: To-Do List -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-lg border-0 animate-project-card">
+                        <img src="./images/Capture2.PNG" class="card-img-top"
+                            alt="To-Do List Task Management App">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5 fw-bold text-danger mb-3">To-Do List Task Manager</h3>
+                            <p class="card-text text-secondary mb-4">
+                                A fully functional to-do list web application with task creation, editing, deletion, and
+                                persistent storage using Local Storage. Includes dark/light mode and search.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2 mb-3 mt-auto">
+                                <span class="badge bg-secondary text-dark-blue p-2 rounded-pill">HTML5</span>
+                                <span class="badge bg-secondary text-dark-blue p-2 rounded-pill">CSS3</span>
+                                <span class="badge bg-secondary text-dark-blue p-2 rounded-pill">JavaScript</span>
+                                <span class="badge bg-secondary text-dark-blue p-2 rounded-pill">Local
+                                    Storage</span>
+                            </div>
+                            <div class="d-flex justify-content-start gap-3 mt-3">
+                                <a href="https://github.com/EnAsmaa/To-do-list.git" class="btn btn-danger btn-sm rounded-pill animate-btn">Live Demo</a>
+                                <a href="https://enasmaa.github.io/To-do-list/"
+                                    class="btn btn-outline-danger btn-sm rounded-pill animate-btn">GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-5 py-md-5">
+        <div class="container text-center">
+            <h2 class="display-4 fw-bold text-danger mb-5">Experience & Certifications</h2>
+
+            <div class="row g-4 justify-content-center">
+                <!-- ITI Internship -->
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-lg border-0 animate-card">
+                        <div class="card-body text-start">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://placehold.co/50x50/6c63ff/ffffff?text=ITI" alt="ITI Logo"
+                                    class="rounded-circle me-3">
+                                <div>
+                                    <h3 class="h5 fw-bold text-dark-blue mb-0">Frontend Web Development Internship</h3>
+                                    <p class="text-danger fw-bold mb-0">Information Technology Institute (ITI)</p>
+                                </div>
+                            </div>
+                            <p class="text-secondary mb-3">
+                                An intensive 120-hour training focused on HTML, CSS, Bootstrap, and JavaScript. Built
+                                multiple projects that enhanced problem-solving and design implementation skills.
+                            </p>
+                            <span class="badge bg-success text-white p-2 rounded-pill">Grade: 95%</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- SEF Academy Course -->
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-lg border-0 animate-card">
+                        <div class="card-body text-start">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://placehold.co/50x50/6c63ff/ffffff?text=SEF" alt="SEF Academy Logo"
+                                    class="rounded-circle me-3">
+                                <div>
+                                    <h3 class="h5 fw-bold text-dark-blue mb-0">Full Stack Development Course</h3>
+                                    <p class="text-danger fw-bold mb-0">SEF Academy</p>
+                                </div>
+                            </div>
+                            <p class="text-secondary mb-3">
+                                Ongoing full stack training covering both front-end and back-end technologies. Gaining
+                                practical experience through guided projects.
+                            </p>
+                            <span class="badge bg-info text-white p-2 rounded-pill">Currently Ongoing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 py-md-5 bg-primary-gradient text-white">
+        <div class="container text-center">
+            <h2 class="display-4 fw-bold mb-4 text-danger">Contact Me</h2>
+            <p class="lead mx-auto mb-5 opacity-90 max-w-lg">
+                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+                Feel free to reach out!
+            </p>
+
+            <div class="row g-4 justify-content-center mb-5">
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center justify-content-center flex-column flex-md-row">
+                        <i class="fas fa-envelope fa-2x me-md-3 mb-2 mb-md-0 text-white-50"></i>
+                        <div>
+                            <p class="lead mb-0">Email</p>
+                            <a href="mailto:asmaaelnger02@gmail.com"
+                                class="text-white text-decoration-none h5">asmaaelnger02@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center justify-content-center flex-column flex-md-row">
+                        <i class="fas fa-phone fa-2x me-md-3 mb-2 mb-md-0 text-white-50"></i>
+                        <div>
+                            <p class="lead mb-0">Phone</p>
+                            <a href="tel:+201065347885" class="text-white text-decoration-none h5">+201065347885</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center justify-content-center flex-column flex-md-row">
+                        <i class="fas fa-map-marker-alt fa-2x me-md-3 mb-2 mb-md-0 text-white-50"></i>
+                        <div>
+                            <p class="lead mb-0">Location</p>
+                            <p class="text-white h5 mb-0">Egypt, Qalubia, Elqranfeel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="d-flex justify-content-center gap-4 mb-5">
+                <a href="https://linkedin.com/in/asmaa-elnagar-48a8a629b" target="_blank" rel="noopener noreferrer"
+                    class="text-white animate-icon">
+                    <i class="fab fa-linkedin  fa-3x"></i>
+                </a>
+                <a href="https://github.com/EnAsmaa" target="_blank" rel="noopener noreferrer"
+                    class="text-white animate-icon">
+                    <i class="fab fa-github fa-3x"></i>
+                </a>
+            </div>
+
+            <!-- Contact Form (Placeholder - requires backend for functionality) -->
+            <div class="card p-4 mx-auto shadow-lg contact-form-card">
+                <div class="card-body text-start">
+                    <h3 class="card-title h4 fw-bold text-danger mb-4">Send Me a Message</h3>
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label text-dark-blue">Your Name</label>
+                            <input type="text" class="form-control rounded-pill" id="name" placeholder="Full Name"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-dark-blue">Your Email</label>
+                            <input type="email" class="form-control rounded-pill" id="email"
+                                placeholder="email@example.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label text-dark-blue">Message</label>
+                            <textarea class="form-control rounded-3" id="message" rows="5"
+                                placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-danger btn-lg w-100 rounded-pill mt-3 animate-btn">
+                            <i class="fas fa-paper-plane me-2"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white-50 py-4 text-center">
+        <div class="container">
+            <p class="mb-0">&copy; <span id="currentYear"></span> Asmaa Abdelwahab. All Rights Reserved.</p>
+            <p class="mb-0 mt-1 small">Built with passion using HTML, CSS, JavaScript, and Bootstrap.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        xintegrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
